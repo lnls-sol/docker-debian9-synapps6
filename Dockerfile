@@ -7,3 +7,6 @@ RUN apt-get install git -y
 COPY synapps6.sh /tmp
 RUN chmod +x /tmp/synapps6.sh
 RUN /tmp/synapps6.sh
+
+COPY extensions.sh /tmp
+RUN /tmp/extensions.sh
